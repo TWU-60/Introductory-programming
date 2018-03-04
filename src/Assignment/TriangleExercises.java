@@ -35,15 +35,15 @@ public class TriangleExercises {
     public static void main(String [] args){
         System.out.println("Easiest exercise ever");
         start();
-        Scanner scnner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter length of line, Draw a horizontal line: ");
-        int length = scnner.nextInt();
+        int length = scanner.nextInt();
         horizontalLine(length);
         System.out.println("Enter height of line, Draw a vertical line: ");
-        int verticalLineHeight = scnner.nextInt();
+        int verticalLineHeight = scanner.nextInt();
         verticalLine(verticalLineHeight);
         System.out.println("Enter height of line, Draw a right triangle: ");
-        int triangleHeight = scnner.nextInt();
+        int triangleHeight = scanner.nextInt();
         rightTriangle(triangleHeight);
     }
 }
